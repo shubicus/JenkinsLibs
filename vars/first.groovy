@@ -1,3 +1,3 @@
-def call([:]){
-  echo "Hey ${name}, here I am."
+def call(Map map){
+  echo "Hey ${map.name}, here I am, age of ${map.age}"
 }
