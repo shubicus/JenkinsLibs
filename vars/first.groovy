@@ -1,3 +1,3 @@
-def call(name){
+def call([:]){
   echo "Hey ${name}, here I am."
 }
