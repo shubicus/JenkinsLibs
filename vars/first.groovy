@@ -6,6 +6,6 @@ def call(Map map){
 
 def int calcul(int a){
   def x = a+a
-  echo 'XXX:${x}'
+  echo "XXX:${x}"
   return x
 }
